@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>601</width>
+    <height>468</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButtonInsert">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>330</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Insert</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>380</y>
+      <width>231</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>输入结果在此处显示
+输入完毕请回车</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>421</width>
+      <height>291</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditInsert">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>330</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditSearch">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>330</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonRemove">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>330</y>
+      <width>60</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Remove</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditRemove">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>330</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonSearch">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>330</y>
+      <width>60</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditBatchInsert">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>380</y>
+      <width>331</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>批量插入。格式：n个数字，数字间以空格隔开，回车键入</string>
+    </property>
+   </widget>
+   <widget class="QTreeWidget" name="treeWidget">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>20</y>
+      <width>141</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>树形图显示</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="pushButtonClear">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>360</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>601</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>lineEditInsert</tabstop>
+  <tabstop>lineEditSearch</tabstop>
+  <tabstop>lineEditRemove</tabstop>
+  <tabstop>lineEditBatchInsert</tabstop>
+  <tabstop>pushButtonInsert</tabstop>
+  <tabstop>pushButtonSearch</tabstop>
+  <tabstop>pushButtonRemove</tabstop>
+  <tabstop>graphicsView</tabstop>
+  <tabstop>treeWidget</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
