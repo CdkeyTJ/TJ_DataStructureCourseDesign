@@ -1,6 +1,4 @@
 # 题目
-[![codecov](https://codecov.io/gh/FISCO-BCOS/FISCO-BCOS/branch/master/graph/badge.svg)](https://codecov.io/gh/FISCO-BCOS/FISCO-BCOS)
-[![CodeFactor](https://www.codefactor.io/repository/github/fisco-bcos/FISCO-BCOS/badge)](https://www.codefactor.io/repository/github/fisco-bcos/FISCO-BCOS)
 [![GitHub All Releases](https://img.shields.io/github/downloads/CdkeyTJ/TJ_DataStructureCourseDesign/total.svg)](https://github.com/CdkeyTJ/TJ_DataStructureCourseDesign)
 ### 算法实现设计
 二叉排序树的建立和删除
